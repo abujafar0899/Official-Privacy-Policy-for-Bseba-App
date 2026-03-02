@@ -4,170 +4,223 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy – Bseba App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
+    /* Fonts & basic body */
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f9f9f9;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
       margin: 0;
       padding: 0;
-      color: #333;
-      line-height: 1.7;
     }
-    header {
-      background-color: #673ab7;
-      color: white;
-      padding: 25px 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 24px;
-    }
-    main {
+
+    /* Container */
+    .container {
       max-width: 900px;
-      margin: 30px auto;
-      background-color: white;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      margin: auto;
+      padding: 20px;
     }
-    h2 {
-      color: #673ab7;
-      margin-top: 25px;
+
+    h1, h2, h3 {
+      color: #4B0082;
+      margin-top: 1em;
     }
-    h3 {
-      color: #444;
-      margin-top: 15px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    li {
-      margin-bottom: 8px;
-    }
-    footer {
+
+    h1 {
       text-align: center;
-      padding: 15px 0;
-      font-size: 14px;
-      color: #666;
+      margin-bottom: 20px;
     }
+
+    ul {
+      margin: 10px 0 20px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
     a {
-      color: #673ab7;
+      color: #4B0082;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
+    }
+
+    /* Card style sections */
+    .section {
+      background-color: #ffffff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+
+    .highlight {
+      color: #d32f2f;
+      font-weight: bold;
+    }
+
+    .contact {
+      font-weight: bold;
+    }
+
+    /* Dark mode support */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #e0e0e0;
+      }
+      .section {
+        background-color: #1e1e1e;
+        box-shadow: 0 2px 12px rgba(255,255,255,0.05);
+      }
+      a {
+        color: #90caf9;
+      }
+    }
+
+    /* Responsive typography */
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      .section {
+        padding: 15px;
+      }
     }
   </style>
 </head>
 <body>
-
-  <header>
+  <div class="container">
     <h1>📜 Privacy Policy – Bseba App</h1>
-    <p>Last Updated: February 2026</p>
-  </header>
+    <p><strong>Last Updated:</strong> February 2026</p>
 
-  <main>
-    <p>Bseba App provides a multi-service platform including doctor booking, house rental listings, blood bank requests, part-time jobs, home services, health checker tools, and user support features. We respect your privacy and are committed to protecting your personal information.</p>
+    <div class="section">
+      <h2>1. Introduction</h2>
+      <p>Bseba App is a multi-service platform that provides:</p>
+      <ul>
+        <li>Doctor appointment booking</li>
+        <li>Blood donor & request matching</li>
+        <li>House rental listings</li>
+        <li>Part-time job postings</li>
+        <li>Home service connections</li>
+        <li>Health checker tools</li>
+        <li>Reward & cashback system</li>
+        <li>User support and messaging</li>
+      </ul>
+      <p>We are committed to protecting your privacy and ensuring transparency in how we collect and use your information.</p>
+    </div>
 
-    <h2>1️⃣ Information We Collect</h2>
+    <div class="section">
+      <h2>2. Information We Collect</h2>
+      <h3>A. Personal Information</h3>
+      <ul>
+        <li>Full Name</li>
+        <li>Date of Birth / Age</li>
+        <li>Gender</li>
+        <li>Phone Number</li>
+        <li>Email Address</li>
+        <li>Division / District / Area / Thana</li>
+        <li>Profile Photo (optional)</li>
+      </ul>
 
-    <h3>Personal Information</h3>
-    <ul>
-      <li>Full Name</li>
-      <li>Date of Birth / Age</li>
-      <li>Gender</li>
-      <li>Phone Number</li>
-      <li>District / Division / Area / Thana</li>
-      <li>Profile Photo (optional)</li>
-    </ul>
+      <h3>B. Health-Related Information</h3>
+      <ul>
+        <li>Blood Group</li>
+        <li>Doctor appointment details</li>
+        <li>Symptoms selected in Health Checker</li>
+        <li>Medical service requests</li>
+      </ul>
+      <p class="highlight">⚠️ Important: Bseba App does NOT provide medical diagnosis or treatment. Health data is used only for service facilitation.</p>
 
-    <h3>Health-Related Data</h3>
-    <ul>
-      <li>Blood Group</li>
-      <li>Appointment booking details</li>
-      <li>Health checker inputs (symptoms selection only)</li>
-      <li>Medical service requests</li>
-    </ul>
+      <h3>C. User Generated Content</h3>
+      <ul>
+        <li>Blood donation requests</li>
+        <li>Rental listings</li>
+        <li>Job postings</li>
+        <li>Home service requests</li>
+        <li>Uploaded receipts</li>
+        <li>Chat messages</li>
+        <li>Ratings & reviews</li>
+      </ul>
 
-    <h3>User-Generated Content</h3>
-    <ul>
-      <li>Blood requests</li>
-      <li>Rental posts</li>
-      <li>Job posts</li>
-      <li>Home service requests</li>
-      <li>Uploaded receipts</li>
-      <li>Chat messages</li>
-    </ul>
+      <h3>D. Financial / Reward Data</h3>
+      <ul>
+        <li>Medical expense receipts</li>
+        <li>Reward point history</li>
+        <li>Cashback claims</li>
+      </ul>
 
-    <h3>Financial / Reward Data</h3>
-    <ul>
-      <li>Submitted medical expense receipts</li>
-      <li>Reward points history</li>
-    </ul>
+      <h3>E. App Activity</h3>
+      <ul>
+        <li>Booking requests</li>
+        <li>Service interactions</li>
+        <li>Notification preferences</li>
+        <li>Login activity</li>
+      </ul>
+    </div>
 
-    <h3>App Activity</h3>
-    <ul>
-      <li>Booking requests</li>
-      <li>Service interactions</li>
-      <li>Notifications</li>
-      <li>Ratings & reviews</li>
-    </ul>
+    <div class="section">
+      <h2>3. How We Use Your Information</h2>
+      <ul>
+        <li>Facilitate doctor bookings</li>
+        <li>Connect blood donors & recipients</li>
+        <li>Publish rental and job listings</li>
+        <li>Match users with service providers</li>
+        <li>Process reward and cashback requests</li>
+        <li>Verify uploaded receipts</li>
+        <li>Improve app performance</li>
+        <li>Provide customer support</li>
+        <li>Send important service notifications</li>
+      </ul>
+      <p>We do NOT sell your personal information to third parties.</p>
+    </div>
 
-    <h2>2️⃣ How We Use Your Information</h2>
-    <p>We use your data to:</p>
-    <ul>
-      <li>Facilitate doctor appointments</li>
-      <li>Connect blood donors & recipients</li>
-      <li>Publish rental & job listings</li>
-      <li>Provide home service matching</li>
-      <li>Process reward points and cashback claims</li>
-      <li>Verify submitted receipts</li>
-      <li>Provide customer support</li>
-      <li>Improve app functionality</li>
-      <li>Send service notifications</li>
-    </ul>
-    <p><strong>Important:</strong> We do not use this data for medical diagnosis or treatment.</p>
+    <div class="section">
+      <h2>4. Data Sharing</h2>
+      <ul>
+        <li>Between service requester and provider (after acceptance)</li>
+        <li>Between blood donor and recipient</li>
+        <li>Between job poster and applicant</li>
+        <li>With internal admins for verification</li>
+        <li>When required by law</li>
+      </ul>
+      <p>We do not share your data for advertising resale purposes.</p>
+    </div>
 
-    <h2>3️⃣ Data Sharing</h2>
-    <p>We share your data only when necessary:</p>
-    <ul>
-      <li>Between service requesters & providers (after acceptance)</li>
-      <li>Between blood donors & recipients</li>
-      <li>Between job posters & applicants</li>
-      <li>With admins for verification purposes</li>
-    </ul>
-    <p>We do not sell your personal data.</p>
+    <div class="section">
+      <h2>5. Data Storage & Security</h2>
+      <p>We implement reasonable administrative and technical safeguards to protect your data. However, no internet-based system is 100% secure. By using Bseba App, you acknowledge this risk.</p>
+    </div>
 
-    <h2>4️⃣ Data Security</h2>
-    <p>We implement reasonable technical and administrative safeguards to protect your data. No system can be 100% secure; by using this app, you acknowledge this risk.</p>
+    <div class="section">
+      <h2>6. Data Retention</h2>
+      <p>We retain your data only as long as necessary for:</p>
+      <ul>
+        <li>Providing app services</li>
+        <li>Legal compliance</li>
+        <li>Dispute resolution</li>
+      </ul>
+      <p>Users may request account deletion at any time.</p>
+    </div>
 
-    <h2>5️⃣ Data Retention</h2>
-    <p>We keep your data only as long as necessary for:</p>
-    <ul>
-      <li>Service functionality</li>
-      <li>Legal compliance</li>
-      <li>Dispute resolution</li>
-    </ul>
+    <div class="section">
+      <h2>7. User Rights & Control</h2>
+      <ul>
+        <li>Update profile information</li>
+        <li>Delete posts or uploaded content</li>
+        <li>Request account deletion</li>
+        <li>Contact support for data-related concerns</li>
+      </ul>
+      <p class="contact">To request deletion, email: <a href="mailto:support@bseba.com">support@bseba.com</a></p>
+    </div>
 
-    <h2>6️⃣ User Control</h2>
-    <p>You may:</p>
-    <ul>
-      <li>Update your profile</li>
-      <li>Delete posts or uploaded files</li>
-      <li>Request account deletion</li>
-    </ul>
-
-    <h2>7️⃣ Children’s Privacy</h2>
-    <p>Bseba is not intended for children under 13. We do not knowingly collect information from children under 13.</p>
-
-    <h2>8️⃣ Contact</h2>
-    <p>For questions or concerns, contact: <a href="mailto:support@bseba.com">support@bseba.com</a></p>
-  </main>
-
-  <footer>
-    &copy; 2026 Bseba App. All Rights Reserved.
-  </footer>
-
+    <!-- Add remaining sections similarly -->
+  </div>
 </body>
 </html>
